@@ -204,19 +204,17 @@
 
           const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-          // Reset errors
           document
             .querySelectorAll(".error-message")
             .forEach((el) => (el.textContent = ""));
           document.getElementById("successMessage").textContent = "";
 
-          // Name validation
           if (name.value.trim() === "") {
             showError(name, "Name is required");
             isValid = false;
           }
 
-          // Email validation
+          // Email 
           if (email.value.trim() === "") {
             showError(email, "Email is required");
             isValid = false;
@@ -225,7 +223,7 @@
             isValid = false;
           }
 
-          // Question validation
+          // Question
           if (question.value.trim() === "") {
             showError(question, "Please enter your question");
             isValid = false;

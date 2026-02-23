@@ -202,7 +202,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-/* ---------------------FOOTER-ICON-PORTFOLIO----------------- */
+/* ---------------------FOOTER-ICON----------------- */
 
 .footer-div {
   display: flex;
@@ -235,7 +235,6 @@ a {
 }
 
 /* PRIMARY PAGE */
-
 /* Hero */
 
 .hero {
@@ -339,78 +338,6 @@ a {
   margin-bottom: 8px;
   border-radius: 4px;
 }
-
-/* .icon-antenna::before {
-  background-color: var(--exception-color);
-  background-image: url(../images/icon/antenna-icon.svg);
-
-  border-radius: 4px;
-  margin-bottom: 8px;
-
-  content: "";
-  display: block;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 64px 64px;
-
-  width: 264px;
-  height: 112px;
-}
-
-.icon-clock::before {
-  background-color: var(--exception-color);
-  background-image: url(../images/icon/clock-icon.svg);
-
-  border-radius: 4px;
-  margin-bottom: 8px;
-
-  content: "";
-  display: block;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 64px 64px;
-
-  width: 264px;
-  height: 112px;
-}
-
-.icon-diagram::before {
-  background-color: var(--exception-color);
-  background-image: url(../images/icon/diagram-icon.svg);
-
-  border-radius: 4px;
-  margin-bottom: 8px;
-
-  content: "";
-  display: block;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 64px 64px;
-
-  width: 264px;
-  height: 112px;
-}
-
-.icon-astronaut::before {
-  background-color: var(--exception-color);
-  background-image: url(../images/icon/astronaut-icon.svg);
-
-  border-radius: 4px;
-  margin-bottom: 8px;
-
-  content: "";
-  display: block;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 64px 64px;
-
-  width: 264px;
-  height: 112px;
-} */
 
 /* -----------------------What are we doing------------------------------------- */
 
@@ -526,60 +453,6 @@ a {
   background-color: #404bbf;
 }
 
-/* ----------------------------------------CUSTOMERS------------------------ */
-
-.cust {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.cust-title {
-  color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  margin-bottom: 72px;
-}
-
-.cust-list {
-  display: flex;
-
-  gap: 24px;
-}
-
-/* -----------------------ICON-CUSTUMERS------------------------ */
-
-.cist-item {
-  display: flex;
-}
-
-.cust-link {
-  fill: #8e8f99;
-  color: #8e8f99;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 168px;
-  height: 88px;
-
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-}
-
-.cust-icon {
-  fill: currentColor;
-}
-
-.cust-link:hover,
-.cust-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
-}
-
 /* ------------------CARD--------------------------------- */
 
 .card {
@@ -633,7 +506,8 @@ a {
   line-height: 1.6;
 }
 
-/*PLUGINS*/ /* COOKIE POPUP OVERLAY */
+/*PLUGINS*/
+/* COOKIE POPUP OVERLAY */
 .cookie-modal {
   position: fixed;
   inset: 0;
@@ -644,7 +518,6 @@ a {
   z-index: 9999;
 }
 
-/* COOKIE BOX */
 .cookie-content {
   background: #ffffff;
   max-width: 420px;
@@ -719,7 +592,6 @@ a {
 }
 
 /* CONTACT PAGE */
-
 .contact-section {
   padding: 80px 0;
 }
