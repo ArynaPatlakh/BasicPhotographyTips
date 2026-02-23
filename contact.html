@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <title>First Photo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Шапка сайта-->
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="logo-studio-header logo" href=""
+            ><span class="logo-web">First</span>PHOTO</a
+          >
+          <ul class="navigation">
+            <li class="navigation-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="navigation-item">
+              <a class="nav-link" href="./tips.html">Tips</a>
+            </li>
+            <li class="navigation-item">
+              <a class="nav-link" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contact">
+          <li>
+            <a class="link-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link-contact" href="tel:+353001111111"
+              >+353 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <div class="container">
+          <h1 class="contact-title">Contact Us</h1>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="question">Your Question</label>
+              <textarea id="question" rows="5"></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="contact-button">Send Message</button>
+
+            <p id="successMessage" class="success-message"></p>
+          </form>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <div class="container">
+          <h2 class="faq-title">Frequently Asked Questions</h2>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              What camera is best for beginners?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Any entry-level DSLR or mirrorless camera is perfect to start.
+                Focus more on learning exposure and composition rather than
+                expensive equipment.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              What is ISO and when should I change it?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                ISO controls light sensitivity. Use low ISO (100–200) in
+                daylight and increase it in low-light situations, but avoid very
+                high ISO to reduce image noise.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How do I take better portrait photos?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Use a wide aperture (f/1.8–f/2.8), focus on the eyes, and shoot
+                during golden hour for soft natural lighting.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Do I need expensive lenses?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                No. A simple 50mm lens is affordable and excellent for
+                portraits. Skill and lighting matter more than price.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-div">
+        <div class="footer-div1">
+          <a class="logo-studio-footer logo" href=""
+            ><span class="logo-web logo-footer">First</span>PHOTO</a
+          >
+          <p class="footer-text">
+            Increase your photography skills with our tips and tricks.
+          </p>
+        </div>
+
+        <div class="footer-div2">
+          <h2 class="footer-title">Social media</h2>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <svg class="footer-item-icon" width="24" height="24">
+                  <use href="./img/icon/sprite.svg#icon-inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <svg class="footer-item-icon" width="24" height="24">
+                  <use href="./img/icon/sprite.svg#icon-twit"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <svg class="footer-item-icon" width="24" height="24">
+                  <use href="./img/icon/sprite.svg#icon-face"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-item-link">
+                <svg class="footer-item-icon" width="24" height="24">
+                  <use href="./img/icon/sprite.svg#icon-link"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          let isValid = true;
+
+          const name = document.getElementById("name");
+          const email = document.getElementById("email");
+          const question = document.getElementById("question");
+
+          const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+          // Reset errors
+          document
+            .querySelectorAll(".error-message")
+            .forEach((el) => (el.textContent = ""));
+          document.getElementById("successMessage").textContent = "";
+
+          // Name validation
+          if (name.value.trim() === "") {
+            showError(name, "Name is required");
+            isValid = false;
+          }
+
+          // Email validation
+          if (email.value.trim() === "") {
+            showError(email, "Email is required");
+            isValid = false;
+          } else if (!emailPattern.test(email.value.trim())) {
+            showError(email, "Enter a valid email");
+            isValid = false;
+          }
+
+          // Question validation
+          if (question.value.trim() === "") {
+            showError(question, "Please enter your question");
+            isValid = false;
+          }
+
+          if (isValid) {
+            document.getElementById("successMessage").textContent =
+              "Your message has been sent successfully!";
+            this.reset();
+          }
+        });
+
+      function showError(input, message) {
+        const formGroup = input.parentElement;
+        const small = formGroup.querySelector(".error-message");
+        small.textContent = message;
+      }
+    </script>
+    <script>
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        const button = item.querySelector(".faq-question");
+
+        button.addEventListener("click", () => {
+          faqItems.forEach((el) => {
+            if (el !== item) {
+              el.classList.remove("active");
+            }
+          });
+
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
